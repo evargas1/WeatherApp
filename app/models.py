@@ -7,11 +7,11 @@ class City(models.Model):
     city_image = models.ImageField(upload_to='media', default=None)
     # we will see how this works 
 
-    def __str__(self):
-        return self.name 
+    # def __str__(self):
+    #     return self.name 
         
-    class Meta:
-        unique_together = ['name']
-        verbose_name_plural = 'cities'
+    # class Meta:
+    #     unique_together = ['name']
+    #     verbose_name_plural = 'cities'
 
     
