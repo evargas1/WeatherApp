@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 # from django.shortcuts import render
 import requests
-# from app.models import City
+from app.models import City
 from django.db.models import Q
 from django.shortcuts import render, redirect
 from django.http import HttpResponseRedirect
