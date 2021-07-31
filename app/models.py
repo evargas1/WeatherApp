@@ -5,7 +5,7 @@ from django.db import models
 class City(models.Model):
     name = models.CharField(max_length=25)
     city_image = models.ImageField(upload_to='media', default=None)
-    we will see how this works 
+   
 
     def __str__(self):
         return self.name 
