@@ -6,7 +6,7 @@ Login and Signup button to create and accound with us or login to see upcoming a
 vistors how to eat foods that are in season.
 
 
-#Tools 
+# Tools 
 Python and Django 
 HTML/CSS
 JavaScript
